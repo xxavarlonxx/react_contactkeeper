@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/users
+
+###
+
+GET http://localhost:5000/api/auth
+
+###
+
+POST http://localhost:5000/api/auth
+
+###
+
+GET http://localhost:5000/api/contacts
+
+###
+
+POST http://localhost:5000/api/contacts
+
+###
+
+PUT http://localhost:5000/api/contacts/1
+
+###
+
+DELETE http://localhost:5000/api/contacts/1
