@@ -9,4 +9,3 @@ COPY --from=ui-build /usr/src/app/client/build ./client/build
 COPY package*.json .
 RUN npm install
 COPY . .
-RUN npm run start
