@@ -1,6 +1,6 @@
 FROM node:12-alpine as ui-build
 WORKDIR /usr/src/app
-COPY package*.json ./
+COPY client/package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
